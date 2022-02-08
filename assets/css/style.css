@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,300&display=swap');
+
+* {
+    font-family: 'Roboto';
+}
+
+/* Navbar */
+.container-nav {
+    background-color: transparent;
+}
+
+.navbar {
+    background: linear-gradient(315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #F0F1F5;
+    background-blend-mode: soft-light, normal;
+    box-shadow: -42.6667px -42.6667px 128px #FFFFFF, 64px 64px 128px rgba(174, 174, 192, 0.4);
+    text-transform: uppercase;
+}
+
+.navbar .navbar-brand{
+    width: 208px;
+    height: 24px;
+}
+
+.navbar .navbar-brand img {
+    background-color: black;
+    margin-top: -19px;
+}
+
+.navbar .collapse ul li a {
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+.navbar .btn {
+    background: #F0F0F3;
+    box-shadow: -1px -1px 3px #FFFFFF, 1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+    border-radius: 12px;
+    width: 150px;
+    height: 28px;
+    margin-right: 80px;
+    line-height: 12px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #414B5A;
+}
+
+/* section */
+.jumbotron h2 {
+    margin-top: 200px;
+    width: 569px;
+    height: 34px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;    
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #414B5A;
+}
+
+.jumbotron p {
+    width: 493px;
+    height: 130px;
+    left: 0px;
+    top: 59px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 24px;
+
+    letter-spacing: 0.02em;
+    color: #414B5A;
+
+}
+
+.jumbotron img {
+    width: 494px;
+}
+
+/* form register */
+.jumbotron .img-section-register {
+    margin-top: 100px;
+}
+
+.jumbotron .form-register {
+    width: 400px;
+    height: 600px;
+    left: 0px;
+    top: 0px;
+    margin-left: 150px;
+    margin-top: 40px;
+
+    background: #F0F1F5;
+    box-shadow: -8px -8px 10px #30343A, 8px 8px 10px #24262C;
+    border-radius: 12px;
+}
+.jumbotron .form-register img {
+    width: 154px;
+    height: 24px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.jumbotron .form-register label {
+    width: 150px;
+    height: 14px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    letter-spacing: 0.04em;
+
+    color: #414B5A;
+}
+.jumbotron .form-register input {
+    align-items: center;
+    padding: 16px 20px;
+    
+    position: static;
+    width: 345px;
+    height: 40px;
+    left: 0px;
+    top: 22px;
+    
+    background: linear-gradient(315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #EDEEF2;
+    background-blend-mode: soft-light, normal;
+    
+    box-shadow: inset -2.66667px -2.66667px 2.66667px rgba(255, 255, 255, 0.7), inset 4px 4px 2.66667px rgba(174, 174, 192, 0.2);
+    border-radius: 8px;
+ 
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;    
+}
+.jumbotron .form-register select {
+    width: 345px;
+    height: 40px;
+    left: 0px;
+    top: 22px;
+
+    /* background: linear-gradient(315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #EDEEF2; */
+    /* background-blend-mode: soft-light, normal; */
+
+    box-shadow: inset -2.66667px -2.66667px 2.66667px rgba(255, 255, 255, 0.7), inset 4px 4px 2.66667px rgba(174, 174, 192, 0.2);
+    border-radius: 8px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+.jumbotron .form-register .btn {
+    width: 345px;
+    height: 40px;
+    left: 18px;
+    top: 481px;
+
+    background: linear-gradient(315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #F0F1F5;
+    background-blend-mode: soft-light, normal;
+    box-shadow: -1.66667px -1.66667px 5px #FFFFFF, 2.5px 2.5px 5px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 0.333333px rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+
+    /* font */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    /* identical to box height, or 12px */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #414B5A;
+}
+
+/* form login */
+.jumbotron .img-section-login {
+    margin-top: 45px;
+}
+
+.jumbotron .form-login {
+    width: 400px;
+    height: 340px;
+    left: 0px;
+    top: 0px;
+    margin-left: 150px;
+    margin-top: 100px;
+
+    background: #F0F1F5;
+    box-shadow: -8px -8px 10px #30343A, 8px 8px 10px #24262C;
+    border-radius: 12px;
+}
+.jumbotron .form-login img {
+    width: 154px;
+    height: 24px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.jumbotron .form-login label {
+    width: 150px;
+    height: 14px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    letter-spacing: 0.04em;
+
+    color: #414B5A;
+}
+.jumbotron .form-login input {
+    align-items: center;
+    padding: 16px 20px;
+    
+    position: static;
+    width: 345px;
+    height: 40px;
+    left: 0px;
+    top: 22px;
+    
+    background: linear-gradient(315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #EDEEF2;
+    background-blend-mode: soft-light, normal;
+    
+    box-shadow: inset -2.66667px -2.66667px 2.66667px rgba(255, 255, 255, 0.7), inset 4px 4px 2.66667px rgba(174, 174, 192, 0.2);
+    border-radius: 8px;
+ 
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;    
+}
+.jumbotron .form-login select {
+    width: 345px;
+    height: 40px;
+    left: 0px;
+    top: 22px;
+
+    /* background: linear-gradient(315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #EDEEF2; */
+    /* background-blend-mode: soft-light, normal; */
+
+    box-shadow: inset -2.66667px -2.66667px 2.66667px rgba(255, 255, 255, 0.7), inset 4px 4px 2.66667px rgba(174, 174, 192, 0.2);
+    border-radius: 8px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+.jumbotron .form-login .btn {
+    width: 345px;
+    height: 40px;
+    left: 18px;
+    top: 481px;
+
+    background: linear-gradient(315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #F0F1F5;
+    background-blend-mode: soft-light, normal;
+    box-shadow: -1.66667px -1.66667px 5px #FFFFFF, 2.5px 2.5px 5px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 0.333333px rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+
+    /* font */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    /* identical to box height, or 12px */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #414B5A;
+}
+
+
+
+
+
+
+/* Footer */
+footer {
+    background: linear-gradient(315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #F0F1F5;
+    background-blend-mode: soft-light, normal;   
+    box-shadow: -42.6667px -42.6667px 128px #FFFFFF, 64px 64px 128px rgba(174, 174, 192, 0.4);
+    height: 85px;
+    margin-top: 45px;
+}
+
+footer p {
+    width: 216px;
+    height: 12px;
+    margin-top: 30px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #414B5A;
+}   
+
+footer .joinus {
+    height: 30px;
+    margin-left: 440px;
+}
+
+footer .joinus img {
+    margin-top: -70px;
+    margin-left: 80px;
+}
+
+
+/* responsive */
+@media only screen and (max-width: 600px) {
+ 
+    .jumbotron h2 {
+        margin-top: 100px;
+        width: 569px;
+        height: 34px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 34px;    
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #414B5A;
+    }
+    
+    .jumbotron p {
+        width: 293px;
+        height: 130px;
+        left: 0px;
+        top: 59px;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 24px;
+    
+        letter-spacing: 0.02em;
+        color: #414B5A;
+    
+    }
+    
+    .jumbotron img {
+        margin-top: 50px;
+        width: 300px;
+    }   
+
+    footer {
+        background: linear-gradient(315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #F0F1F5;
+        background-blend-mode: soft-light, normal;   
+        box-shadow: -42.6667px -42.6667px 128px #FFFFFF, 64px 64px 128px rgba(174, 174, 192, 0.4);
+        height: 85px;
+        margin-top: 45px;
+    }
+    
+    footer p {
+        width: 216px;
+        height: 12px;
+        margin-top: 30px;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 100%;
+    
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+    
+        color: #414B5A;
+    }   
+    
+    footer .joinus {
+        margin-left: -60px;
+    }
+    
+    footer .joinus img {
+        width: 25px;
+        height: 25px;
+        margin-top: -70px;
+    }
+    
+}
