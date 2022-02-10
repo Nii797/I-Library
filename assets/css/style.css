@@ -150,9 +150,6 @@
     left: 0px;
     top: 22px;
 
-    /* background: linear-gradient(315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #EDEEF2; */
-    /* background-blend-mode: soft-light, normal; */
-
     box-shadow: inset -2.66667px -2.66667px 2.66667px rgba(255, 255, 255, 0.7), inset 4px 4px 2.66667px rgba(174, 174, 192, 0.2);
     border-radius: 8px;
 
@@ -252,9 +249,6 @@
     left: 0px;
     top: 22px;
 
-    /* background: linear-gradient(315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #EDEEF2; */
-    /* background-blend-mode: soft-light, normal; */
-
     box-shadow: inset -2.66667px -2.66667px 2.66667px rgba(255, 255, 255, 0.7), inset 4px 4px 2.66667px rgba(174, 174, 192, 0.2);
     border-radius: 8px;
 
@@ -287,6 +281,29 @@
 
     color: #414B5A;
 }
+
+
+
+
+/* ================ DASHBOARD ================== */
+.navbar-dashboard .btn {
+    background: #F0F0F3;
+    box-shadow: -1px -1px 3px #FFFFFF, 1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+    border-radius: 2px;
+    width: 150px;
+    height: 28px;
+    margin-left: 740px;
+    line-height: 12px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #414B5A;
+}
+
+
 
 
 
