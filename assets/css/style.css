@@ -321,7 +321,7 @@
 
     margin-bottom: 52px;
 }
-.sidebar ul li router-link {
+.sidebar ul li router-link   {
     color: #414b5a;
 }
 .sidebar ul li a:hover {
