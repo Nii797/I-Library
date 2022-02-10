@@ -96,9 +96,8 @@
     top: 0px;
     margin-left: 150px;
     margin-top: 40px;
-
     background: #F0F1F5;
-    box-shadow: -8px -8px 10px #30343A, 8px 8px 10px #24262C;
+    box-shadow: -8px -8px 10px #cbcbcb, 8px 8px 10px #cbcbcb;
     border-radius: 12px;
 }
 .jumbotron .form-register img {
@@ -274,11 +273,8 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 100%;
-    /* identical to box height, or 12px */
-
     letter-spacing: 0.1em;
     text-transform: uppercase;
-
     color: #414B5A;
 }
 
@@ -302,8 +298,35 @@
     text-transform: uppercase;
     color: #414B5A;
 }
+ 
+.sidebar {
+    width: 179px;
+    height: 588px;
+    left: 0px;
+    top: 0px;
 
+    background: #F0F1F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.sidebar ul {
+    margin-top: 31px;
+    margin-left: -40px;
+}
+.sidebar ul li {
+    list-style: none;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.1rem;
 
+    margin-bottom: 52px;
+}
+.sidebar ul li router-link {
+    color: #414b5a;
+}
+.sidebar ul li a:hover {
+    color: #414b5a;
+}
 
 
 
@@ -355,7 +378,7 @@ footer .joinus img {
  
     .jumbotron h2 {
         margin-top: 100px;
-        width: 569px;
+        width: 300px;
         height: 34px;
         font-family: 'Roboto';
         font-style: normal;
@@ -398,7 +421,7 @@ footer .joinus img {
     }
     
     footer p {
-        width: 216px;
+        width: 200px;
         height: 12px;
         margin-top: 30px;
     
