@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,33 +17,55 @@
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    
+
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-dashboard navbar-expand-lg navbar-light bg-light">
         <div class="container container-nav">
             <a class="navbar-brand" href="#"><img class="bg-transparent" src="assets/img/Frame 3084.png" alt="Logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">about</a>
-                    </li>
-                </ul>
                 <form class="d-flex">
-                    <button class="btn" type="submit">JOIN US</button>
+                    <button class="btn" type="submit">LOG OUT</button>
                 </form>
             </div>
         </div>
     </nav>
 
+    <section id="dashboard" class="d-flex">
+        <nav class="navbar sidebar navbar-expand-lg d-flex flex-column">
+            <ul class="d-flex flex-column text-center">
+                <li class="nav-item">
+                    <router-link to="/dashboard" class="nav-link">Dashboard</router-link>
+                </li>
+                <li class="nav-item">
+                    <router-link to="/book" class="nav-link">Book</router-link>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <p>sinau koding academy 2021 &copy;</p>
+                </div>
+                <div class="col-6 text-right">
+                    <div class="joinus">
+                        <p>folow us </p><img src="assets/img/tweet.png" alt="Tweet">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
 
     <script></script>
 </body>
