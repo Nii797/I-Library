@@ -31,7 +31,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <form class="d-flex">
-                    <button class="btn" type="submit">LOG OUT</button>
+                    <a href="index.html"><button class="btn" type="submit">LOG OUT</button></a>
                 </form>
             </div>
         </div>
@@ -48,6 +48,48 @@
                 </li>
             </ul>
         </nav>
+
+        <!-- Isi Content Data Tabel -->
+        <div class="main-dashboard">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                  <div class="table-responsive" v-if="setUpdate === false">
+                    <div class="d-flex justify-content-between">
+                      <p>Book Menu</p>
+                      <a href="addbook.html"><button class="btn-tambahData">Tambah Data</button></a>
+                    </div>
+    
+                    <table class="border">
+                      <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>ISBN</th>
+                        <th>Publisher</th>
+                        <th>Description</th>
+                        <th>Action</th>
+                      </tr>
+    
+                      <tr>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                        <td>
+                          <button class="btn-update" @click="showUpdate">
+                            Update
+                          </button>
+                          <br />
+                          <button class="btn-delete">Delete</button>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
