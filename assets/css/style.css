@@ -16,7 +16,7 @@
     text-transform: uppercase;
 }
 
-.navbar .navbar-brand{
+.navbar .navbar-brand {
     width: 208px;
     height: 24px;
 }
@@ -57,7 +57,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 34px;    
+    line-height: 34px;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: #414B5A;
@@ -82,6 +82,7 @@
 
 .jumbotron img {
     width: 494px;
+    margin-bottom: 50px;
 }
 
 /* form register */
@@ -100,12 +101,14 @@
     box-shadow: -8px -8px 10px #cbcbcb, 8px 8px 10px #cbcbcb;
     border-radius: 12px;
 }
+
 .jumbotron .form-register img {
     width: 154px;
     height: 24px;
     margin-top: 20px;
     margin-bottom: 30px;
 }
+
 .jumbotron .form-register label {
     width: 150px;
     height: 14px;
@@ -122,27 +125,29 @@
 
     color: #414B5A;
 }
+
 .jumbotron .form-register input {
     align-items: center;
     padding: 16px 20px;
-    
+
     position: static;
     width: 345px;
     height: 40px;
     left: 0px;
     top: 22px;
-    
+
     background: linear-gradient(315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #EDEEF2;
     background-blend-mode: soft-light, normal;
-    
+
     box-shadow: inset -2.66667px -2.66667px 2.66667px rgba(255, 255, 255, 0.7), inset 4px 4px 2.66667px rgba(174, 174, 192, 0.2);
     border-radius: 8px;
- 
+
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 8px 0px;    
+    margin: 8px 0px;
 }
+
 .jumbotron .form-register select {
     width: 345px;
     height: 40px;
@@ -157,6 +162,7 @@
     flex-grow: 0;
     margin: 8px 0px;
 }
+
 .jumbotron .form-register .btn {
     width: 345px;
     height: 40px;
@@ -199,12 +205,14 @@
     box-shadow: -8px -8px 10px #30343A, 8px 8px 10px #24262C;
     border-radius: 12px;
 }
+
 .jumbotron .form-login img {
     width: 154px;
     height: 24px;
     margin-top: 20px;
     margin-bottom: 30px;
 }
+
 .jumbotron .form-login label {
     width: 150px;
     height: 14px;
@@ -221,27 +229,29 @@
 
     color: #414B5A;
 }
+
 .jumbotron .form-login input {
     align-items: center;
     padding: 16px 20px;
-    
+
     position: static;
     width: 345px;
     height: 40px;
     left: 0px;
     top: 22px;
-    
+
     background: linear-gradient(315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #EDEEF2;
     background-blend-mode: soft-light, normal;
-    
+
     box-shadow: inset -2.66667px -2.66667px 2.66667px rgba(255, 255, 255, 0.7), inset 4px 4px 2.66667px rgba(174, 174, 192, 0.2);
     border-radius: 8px;
- 
+
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 8px 0px;    
+    margin: 8px 0px;
 }
+
 .jumbotron .form-login select {
     width: 345px;
     height: 40px;
@@ -256,6 +266,7 @@
     flex-grow: 0;
     margin: 8px 0px;
 }
+
 .jumbotron .form-login .btn {
     width: 345px;
     height: 40px;
@@ -298,20 +309,21 @@
     text-transform: uppercase;
     color: #414B5A;
 }
- 
+
 .sidebar {
     width: 179px;
-    height: 588px;
+    height: 670px;
     left: 0px;
     top: 0px;
-
     background: #F0F1F5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .sidebar ul {
     margin-top: 31px;
     margin-left: -40px;
 }
+
 .sidebar ul li {
     list-style: none;
     font-weight: 800;
@@ -321,12 +333,200 @@
 
     margin-bottom: 52px;
 }
-.sidebar ul li router-link   {
+
+.sidebar ul li router-link {
     color: #414b5a;
 }
+
 .sidebar ul li a:hover {
     color: #414b5a;
 }
+
+.main-dashboard {
+    width: 100%;
+    margin-top: 20px;
+    /* margin-left: 173px; */
+}
+
+.data-buku {
+    width: 924px;
+    margin-left: 173px;
+}
+
+.btn-tambahData {
+    width: 150px;
+    height: 28px;
+    border-radius: 2px;
+    background: #f0f0f3;
+    box-shadow: -1px -1px 3px #ffffff, 1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+    border: none;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 12px;
+    color: #414b5a;
+    margin-bottom: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.main-dashboard .container p {
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    color: #414b5a;
+    display: block;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+table,
+.border td,
+.border th {
+    border: 1px solid #c4c4c4;
+    text-align: center;
+}
+
+table .border td {
+    width: 154px;
+    height: 83px;
+}
+
+.border th {
+    width: 154px;
+    height: 33px;
+    font-weight: 500;
+    font-style: 12px;
+    line-height: 23px;
+    color: #414b5a;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    padding: 5px 0;
+}
+
+.border th {
+    background-color: #c4c4c4;
+}
+
+.btn-update {
+    width: 100px;
+    height: 28px;
+    border-radius: 2px;
+    background: #f0f0f3;
+    box-shadow: -1px -1px 3px #ffffff, 1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+    border: none;
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 14px;
+    font-style: normal;
+    line-height: 12px;
+    color: #414b5a;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.btn-delete {
+    width: 100px;
+    height: 28px;
+    border-radius: 2px;
+    background: #f0f0f3;
+    box-shadow: -1px -1px 3px #ffffff, 1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+    border: none;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 12px;
+    color: #414b5a;
+    margin-bottom: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.main-book {
+    margin-top: 35px;
+}
+
+.form-addbook {
+    width: 547px;
+    height: 525px;
+    background: #F0F1F5;
+    box-shadow: -8px -8px 10px #CBCBCB, 8px 8px 10px #CBCBCB;
+    border-radius: 12px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-left: -260px;
+    position: relative;
+}
+.main-dashboard .paddbook {
+    margin-left: 85px;
+    width: 250px;
+    height: 10px;
+    position: relative;
+    margin-bottom: 200px;
+}
+.form-addbook label {
+    width: 100px;
+    height: 14px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: #414B5A;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+.form-addbook input {
+    padding: 16px 20px;
+    position: static;
+    width: 470px;
+    height: 40px;
+    left: 0px;
+    top: 22px;
+    background: linear-gradient(315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #EDEEF2;
+    background-blend-mode: soft-light, normal;
+    box-shadow: inset -2.66667px -2.66667px 2.66667px rgba(255, 255, 255, 0.7), inset 4px 4px 2.66667px rgba(174, 174, 192, 0.2);
+    border-radius: 8px;
+}
+.form-addbook .btn {
+    width: 360px;
+    height: 40px;
+    left: 92px;
+    top: 435px;
+    background: linear-gradient(315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #F0F1F5;
+    background-blend-mode: soft-light, normal;
+    box-shadow: -1.66667px -1.66667px 5px #FFFFFF, 2.5px 2.5px 5px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 0.333333px rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #414B5A;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -336,10 +536,10 @@
 /* Footer */
 footer {
     background: linear-gradient(315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #F0F1F5;
-    background-blend-mode: soft-light, normal;   
+    background-blend-mode: soft-light, normal;
     box-shadow: -42.6667px -42.6667px 128px #FFFFFF, 64px 64px 128px rgba(174, 174, 192, 0.4);
     height: 85px;
-    margin-top: 45px;
+    margin-top: 5px;
 }
 
 footer p {
@@ -360,7 +560,7 @@ footer p {
     text-transform: uppercase;
 
     color: #414B5A;
-}   
+}
 
 footer .joinus {
     height: 30px;
@@ -375,7 +575,7 @@ footer .joinus img {
 
 /* responsive */
 @media only screen and (max-width: 600px) {
- 
+
     .jumbotron h2 {
         margin-top: 100px;
         width: 300px;
@@ -384,70 +584,70 @@ footer .joinus img {
         font-style: normal;
         font-weight: normal;
         font-size: 17px;
-        line-height: 34px;    
+        line-height: 34px;
         letter-spacing: 0.08em;
         text-transform: uppercase;
         color: #414B5A;
     }
-    
+
     .jumbotron p {
         width: 293px;
         height: 130px;
         left: 0px;
         top: 59px;
-    
+
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 300;
         font-size: 12px;
         line-height: 24px;
-    
+
         letter-spacing: 0.02em;
         color: #414B5A;
-    
+
     }
-    
+
     .jumbotron img {
         margin-top: 50px;
         width: 300px;
-    }   
+    }
 
     footer {
         background: linear-gradient(315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #F0F1F5;
-        background-blend-mode: soft-light, normal;   
+        background-blend-mode: soft-light, normal;
         box-shadow: -42.6667px -42.6667px 128px #FFFFFF, 64px 64px 128px rgba(174, 174, 192, 0.4);
         height: 85px;
         margin-top: 45px;
     }
-    
+
     footer p {
         width: 200px;
         height: 12px;
         margin-top: 30px;
-    
+
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 8px;
         line-height: 100%;
-    
+
         display: flex;
         align-items: flex-end;
         text-align: center;
         letter-spacing: 0.1em;
         text-transform: uppercase;
-    
+
         color: #414B5A;
-    }   
-    
+    }
+
     footer .joinus {
         margin-left: -60px;
     }
-    
+
     footer .joinus img {
         width: 25px;
         height: 25px;
         margin-top: -70px;
     }
-    
+
 }
