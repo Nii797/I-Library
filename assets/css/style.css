@@ -97,6 +97,7 @@
     top: 0px;
     margin-left: 150px;
     margin-top: 40px;
+    margin-bottom: 35px;
     background: #F0F1F5;
     box-shadow: -8px -8px 10px #cbcbcb, 8px 8px 10px #cbcbcb;
     border-radius: 12px;
@@ -200,9 +201,8 @@
     top: 0px;
     margin-left: 150px;
     margin-top: 100px;
-
     background: #F0F1F5;
-    box-shadow: -8px -8px 10px #30343A, 8px 8px 10px #24262C;
+    box-shadow: -8px -8px 10px #cbcbcb, 8px 8px 10px #cbcbcb;
     border-radius: 12px;
 }
 
@@ -523,16 +523,6 @@ table .border td {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* Footer */
 footer {
     background: linear-gradient(315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #F0F1F5;
@@ -575,7 +565,6 @@ footer .joinus img {
 
 /* responsive */
 @media only screen and (max-width: 600px) {
-
     .jumbotron h2 {
         margin-top: 100px;
         width: 300px;
@@ -591,7 +580,7 @@ footer .joinus img {
     }
 
     .jumbotron p {
-        width: 293px;
+        width: 300px;
         height: 130px;
         left: 0px;
         top: 59px;
@@ -609,7 +598,7 @@ footer .joinus img {
 
     .jumbotron img {
         margin-top: 50px;
-        width: 300px;
+        width: 230px;
     }
 
     footer {
@@ -621,7 +610,7 @@ footer .joinus img {
     }
 
     footer p {
-        width: 200px;
+        width: 100px;
         height: 12px;
         margin-top: 30px;
 
@@ -641,12 +630,13 @@ footer .joinus img {
     }
 
     footer .joinus {
-        margin-left: -60px;
+        margin-left: 30px;
     }
 
     footer .joinus img {
         width: 25px;
         height: 25px;
+        margin-left: 50px;
         margin-top: -70px;
     }
 
